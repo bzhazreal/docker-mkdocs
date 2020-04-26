@@ -31,15 +31,21 @@ docker build -t <name>/mkdocs .
 
 Create new project :
 ```sh
-docker run -it -v "${pwd}":/app <name>/mkdocs new .
+docker run -it -v $(pwd):/app <name>/mkdocs new .
 ```
 
 Start server :
 ```sh
-docker run -it -v "${pwd}":/app -p 8000:8000 <name>/mkdocs serve -a 0.0.0.0:8000
+docker run -it -v $(pwd):/app -p 8000:8000 <name>/mkdocs serve -a 0.0.0.0:8000
 ```
 
 Build the project :
 ```sh
-docker run -it -v "${pwd}":/app <name>/mkdocs build
+docker run -it -v $(pwd):/app <name>/mkdocs build
+```
+## Use Production image :
+
+```sh
+docker pull bzhazreal/mkdocs
+# Use previous command and replace <name> by bzhazreal for create server and build.
 ```
