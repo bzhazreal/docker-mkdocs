@@ -1,4 +1,6 @@
 # Mkdocs static website generator container.
+[![Automated build](https://img.shields.io/docker/cloud/automated/bzhazreal/mkdocs)](https://hub.docker.com/repository/docker/bzhazreal/mkdocs)
+[![docker build](https://img.shields.io/docker/cloud/build/bzhazreal/mkdocs)](https://hub.docker.com/repository/docker/bzhazreal/mkdocs)
 
 ## About Mkdocs :
 
