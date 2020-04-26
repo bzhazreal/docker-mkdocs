@@ -1,0 +1,4 @@
+Version 1.0:
+------------
+- Alpine docker base
+- Add mkdocs pymdown-extensions markdown-include pygments
